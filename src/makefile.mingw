@@ -6,20 +6,20 @@ USE_UPNP:=0
 USE_IPV6:=1
 
 INCLUDEPATHS= \
- -I"C:\boost_1_53_0" \
+ -I"C:\boost_1_55_0" \
  -I"C:\db-4.8.30.NC/build_unix" \
- -I"C:\openssl-1.0.1e/include" 
+ -I"C:\openssl-1.0.1g/include" 
  
 LIBPATHS= \
- -L"C:\boost_1_53_0/stage/lib" \
+ -L"C:\boost_1_55_0/stage/lib" \
  -L"C:\db-4.8.30.NC/build_unix" \
- -L"C:\openssl-1.0.1e" 
+ -L"C:\openssl-1.0.1g" 
 
 LIBS= \
- -l boost_system-mgw45-mt-d-1_53 \
- -l boost_filesystem-mgw45-mt-d-1_53 \
- -l boost_program_options-mgw45-mt-d-1_53 \
- -l boost_thread-mgw45-mt-d-1_53 \
+ -l boost_system-mgw45-mt-d-1_55 \
+ -l boost_filesystem-mgw45-mt-d-1_55 \
+ -l boost_program_options-mgw45-mt-d-1_55 \
+ -l boost_thread-mgw45-mt-d-1_55 \
  -l db_cxx \
  -l ssl \
  -l crypto
